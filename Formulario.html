@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Layouts</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+	</head>
+	<body>
+
+		<header>
+			<center><h2>Prencha o Formulario</h2></center>
+		</header>
+
+		<section>
+			<nav>
+				<ul class="navegacao">
+					<li id="primeiro-link"><a href="layouts.html">Home</a></li>
+					<li><a href="Tabela.html">Tabela</a></li>
+					<li><a href="formulario.html">Formulario</a></li>
+					<li><a href="#contatos">Contatos</a></li>
+					<li><a href="combinadores.html">Combinadores</a></li>
+					<li><a href="#Ajuda">Ajuda</a></li>
+				</ul>
+			</nav>
+
+			<article>
+				<h1>Contatos</h1>
+				<p>Prencha os campos</p>
+
+			<form method="post">
+
+			<div>
+          		<label>Nome</label><br>
+				<input type="text" name="nome" id="nome" placeholder="digite seu nome">
+			</div>
+
+			<div>
+				<label for="email">E-mail</label><br>
+				<input type="email" name="email" id="email" placeholder="digite seu email">
+			</div>
+
+			<div>
+				<label for="mensagem">Mensagem</label><br>
+				<textarea type="mensagem" id="mensagem" riws="5"></textarea>
+			</div>
+
+			<div>
+				<p>
+					<label>Quais liguagens você prefere?</label>
+					<input type="radio" name="liguagens" value="html"> HTML
+					<input type="radio" name="liguagens" value="css"> CSS
+					<input type="radio" name="liguagens" value="javascript"> JavaScript
+				</p>
+			</div>
+
+			<div>
+				<p>
+					<label>Quais liguagens você sabe?</label>
+					<input type="checkbox" name="liguagens" value="html"> HTML
+					<input type="checkbox" name="liguagens" value="css"> CSS
+					<input type="checkbox" name="liguagens" value="javascript"> JavaScript
+				</p>
+			</div>
+
+			<div>
+				<label>Qual a sua cor favorita</label>
+				<br><br><select>
+					<option value="Azul">Azul</option>
+					<option value="Verde">Verde</option>
+					<option value="Vermelho">Vermelho</option>
+				</select>
+			</div>
+
+			<div>
+				<br><input type="submit">
+			</div>
+
+			</form>
+
+
+			</article>
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Juan</p>
+		</footer>
+
+	</body>
+</html>

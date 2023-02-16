@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>HTML - Layouts</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/fluidos.css">
+		<title>document</title>
+	</head>
+	<body>
+
+		<h1>Layouts Fluidos</h1>
+		<p>adapta a largura da tela</p>
+
+		<section>
+			<h2>100% width / largurad</h2>
+			
+			<div class="width-100">
+					<nav>
+						Tamanho de iamgem por aparelho Win e Cel
+					</nav>
+					<article>
+						.....................
+
+						<div class="fixed-width">
+							💻 Windows 
+						</div>
+
+					<div>
+							<picture>
+								<source media="(max-width: 800px)" srcset="./imagens/coffe-square.jpg">
+								<source media="(max-width: 480px)" srcset="./imagens/coffe-sm.jpg">
+								<img srcset="./imagens/coffee.jpg" alt="Café">
+							</picture>
+					</div>
+				</article>			
+			</div>
+		</section>		
+	</body>
+</html>

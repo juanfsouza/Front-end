@@ -1,0 +1,85 @@
+
+table {
+	background: #ffffff;
+	width: 100%;
+}
+
+table tr {
+	border: 1px solid #75757575;
+
+}
+       /* even ou odd = impares e pares */
+table tbody tr:nth-child(even) {
+	background-color: #eeeeef;
+}
+
+table tbody td:first-child {
+	font-weight: bold;
+	width: 17%;
+
+}
+
+table tbody th:last-child {
+	font-weight: bold;
+	width: 20.5%;
+
+}
+
+table tbody tr:hover {
+	background-color: rgb(0, 0, 255, .2);
+}
+
+table th,
+table td {
+	padding: 1rem;
+}
+
+table th:first-child {
+	width: 17%;
+}
+
+table th {
+	background: #234589;
+	color: white;
+	font-weight: bold;
+	font-size: 1.8rem;
+}
+
+.table-container {
+	padding: 2rem 1rem;
+}
+
+.table-container h1 {
+	font-size: 1.8rem;
+	font-style: normal;
+	margin-bottom: 1rem;
+}
+
+table tr {
+	text-align: center;
+}
+
+.table-container tfoot, thead td {
+	font-weight: bold;
+
+}
+
+nav {
+	border: 1px solid #75757575;
+	background-color: #eeeeef;
+}
+
+li {
+	font-size: 1.5rem;
+	margin-bottom: 10px ;
+}
+
+.col-2 tfoot {
+	width: 50%;
+}
+
+h2 {
+	border: 2px solid #75757575;
+	padding: 20px;
+	background-color: #eeeeee;
+}

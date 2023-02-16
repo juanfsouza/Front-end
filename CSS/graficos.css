@@ -1,0 +1,215 @@
+div h1 {
+	margin: 40px auto;
+	text-align: center;
+	background-color: #929292;
+	box-shadow: inset 2px 2px 2px rgb(73, 73, 73); inset:  -2px -2px 3px black;
+	margin: 20px;
+	padding: 20px;
+	height: 50%;
+	width: 50%;
+}
+
+#grafico-01 {
+	background-color: brown;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	margin: 40px 70px;
+	border-radius: 50%;
+	filter: drop-shadow(4px 8px 10px #333);
+}
+
+#grafico-01 img {
+	width: 100%;
+}
+
+#imagem-vetorial {
+	width: 200px;
+	margin: 100px auto;
+	filter: drop-shadow(4px 8px 10px #333);
+}
+
+
+#text p {
+	background-color: rgb(190, 190, 190);
+	margin: -50px 300px ;
+	font-weight: bold;
+	padding: 20px;
+	height: 50%;
+	width: 60%;
+	box-shadow: inset 2px 2px 10px rgb(73, 73, 73);
+	filter: drop-shadow(4px 8px 10px #333);
+}
+
+div {
+	margin: 40px auto;
+}
+
+Input {
+	padding: 20px;
+	height: 50%;
+	width: 60%;
+	margin: 40px auto;
+	border: 0;
+	line-height: 2.5;
+	padding: 0 20px;
+	font-size: 1rem;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	border-radius: 10px;
+	background-color: rgba(220, 0, 0, 1);
+	background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+	box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), 
+}
+	
+.cafe:hover {
+	background-color: rgba(255, 0, 0, 1);
+}
+
+.cafes:hover {
+	background-color: rgba(255, 0, 0, 1);
+}
+
+.cafes:active {
+	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6);
+}
+
+.cafe:active {
+	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6);
+}
+	
+
+#text-s p {
+	background-color: rgb(190, 190, 190);
+	margin: -50px 300px ;
+	font-weight: bold;
+	padding: 20px;
+	height: 50%;
+	width: 60%;
+	box-shadow: inset 2px 2px 10px rgb(73, 73, 73);
+	filter: drop-shadow(4px 8px 10px #333);
+}
+
+nav {
+	font-weight: bold;
+	font-size: 200%;
+	background-color: rgb(223, 223, 223);
+	box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6);
+	margin: 20px;
+	padding: 20px;
+}
+
+.filtro {
+	filter: grayscale(0%);
+	filter: blur(5px);
+}
+
+.filtro:hover {
+	filter: grayscale(100%);
+}
+
+.coluna {
+	text-align: center;
+	font-weight: bold;
+	display: block;
+	width: 32%;
+	float: left;
+	padding: 5px;
+	background-color: #fff;
+	border: 1px solid gray;
+	box-shadow: inset 2px 2px 2px rgb(73, 73, 73);
+}
+
+.coluna:hover {
+	background-color: rgb(187, 187, 187);
+}
+
+.cafe {
+	display: block;
+	width: 20%;
+	float: left;
+	padding: 5px;
+	margin: 50px;
+}
+
+.cafes {
+	width: 30%;
+	padding: 5px;
+	margin: 50px;
+}
+
+#video {
+	width: 30%;
+	margin: 100px auto;
+	filter: drop-shadow(4px 8px 10px #333);
+}
+
+#video-s {
+	width: 50%;
+	margin: 100px auto;
+	filter: drop-shadow(4px 8px 10px #333);
+}
+
+p {
+	width: 0%;
+	margin: 100px auto;
+	font-weight: bold;
+}
+
+
+      /* tablet */
+@media (min-width: 769px) {
+
+	body {
+		background-color: rgb(0, 170, 170);
+		color: black;
+	}
+
+	p, h1, li, a {
+		color: rgb(141, 0, 0);
+	}
+
+}
+
+@media (max-width: 768px) {
+
+	nav {
+		width: 30px;
+	}
+
+	article {
+		width: 70px;
+	}
+
+	.coluna {
+		width: 50vw;
+		min-width: unset;
+	}
+
+	.video {
+		width: 50vw;
+		min-width: unset;
+	}
+
+	.video-s{
+		width: 50vw;
+		min-width: unset;
+	}
+}
+
+@media (max-width: 425px) {
+	nav,
+	article,
+	.coluna {
+		width: 100%;
+		min-width:320px;
+	
+	}
+}
+
+#audio {
+	width: 90vw;
+	margin: 100px auto;
+	filter: drop-shadow(4px 8px 10px #333);
+}

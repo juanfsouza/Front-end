@@ -1,0 +1,105 @@
+
+html {
+	font-family: sans-serif;
+	color: #ffff;
+	background: #040012;
+}
+
+body {
+	background: url('../combinadores/images.jpg') center top ;
+}
+
+p {
+	color: black;
+}
+
+a {
+	font-family: fantasy;
+	color: #555555;
+	text-decoration: none;
+	font-size: 2rem;
+}
+
+header {
+	background: #040012;
+	margin: 10px;
+	padding: 20px;
+}
+
+header p {
+	color: purple;
+	font-size: 1.5rem;
+}
+
+
+ /* combinadores
+
+	- seletor descendente (spaço)
+	-
+*/
+
+header h2 {
+	font-weight: 100;
+}
+
+header > h2 {
+	font-weight: 600;
+}
+
+h5 {
+	font-family: initial;
+	font-size: 2rem;
+	color: yellow;
+	background: #02006e7a;
+	padding: 10px;
+	margin: 10px;
+}
+
+h2 + p {
+	background: #bcbf00cf;
+	color: #333;
+}
+
+center h1 {
+	color: #d582ff;
+	padding: 20px;
+	margin: 15px;
+}
+
+center p {
+	padding: 10px;
+	margin: 20px;
+}
+
+footer {
+	font-family: cursive;
+	background: #0071d1ad;
+	padding: 20px;
+
+}
+
+a:hover {
+	color: #0051e5;
+}
+
+h5:hover {
+	color: white;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:active {
+	color: #d300c3;
+}
+
+li {
+	border-bottom: 1px solid #000b8bcc;
+	padding: 5px;
+}
+
+li:hover {
+	color: black;
+	border-bottom-color: yellow;
+}

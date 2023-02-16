@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+	font-size: 62.5%; /*equivalente a 10px */
+}
+
+body {
+	background-color: white;
+}
+
+h1, h2, p, li {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #454545;
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 30px;
+	border-bottom: 2px solid #cccc;
+	margin: 50px;
+	padding: 1rem;
+	line-height: 1.5rem;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.navegacao li {
+	border-bottom: 1px solid #cccc;
+	display: block;
+	padding: 1rem;
+	line-height: 2.5rem;
+}
+
+#primeiro-link a {
+	color: #000099;
+}
+
+form {
+	background: #eee;
+	padding: 10px;
+}
+
+form div {                  /* tamanho das bordas */
+	background: #fff;        
+	border: 1px dashed; #999;
+	margin: 1rem;
+	padding: 0.8rem;
+}
+
+label {
+	margin-bottom: 1rem;
+	font-family: sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+	color: blue;
+}
+
+Input {
+	padding: 1rem;  /* tamanho das letras */
+}
+
+[type="text"], [type="email"], textarea, {
+	display: block;
+	width: 100%;
+}
+
+}
+/* Stule the header */
+header {
+	backgound-color: #666;
+	padding: 30px;
+	text-aling: center;
+	font-size: 35px;
+	color: Black;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+	float: left;
+	width: 30%;
+	height: 300px; /* only for demostration, should be removed */
+	background: #ffff;
+	padding: 30px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+article {
+	float: left;
+	padding: 20px;
+	width: 70%;
+	background-color: #f1f1f1;
+	height: 300px;
+}
+
+/* Clear floats after the columns */
+section::after {
+	background: #ccc;
+	content: "";
+	display: table;
+	clear: both;
+	height: 600px;
+}
+
+/* Style the footer */
+footer {
+	background-color: #999;
+	padding: 10px;
+	text-align: center;
+}
+
+@media (max-width: 600px) {
+	nav, article {
+		wdth: 100%;
+		height: auto;
+	}
+}
+
+/*
+	top / (superior / cima)
+	bottom (inferior/baixo)
+	left (esquerda)
+	right (direita)
+*/
+
+form div {
+	position: static;
+	position: relative; /* (absolute) cria um rodape / (fixed) sem rodape */
+	margin top: -10px;
+}

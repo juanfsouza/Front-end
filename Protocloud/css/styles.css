@@ -1,0 +1,131 @@
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    background-color:  #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    background-color: #fff;
+    max-width: 1198px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container {
+    display: block;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fff;
+    display: block;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid #254159;
+
+}
+
+h1 {
+    font-size: 2rem;
+    color: #444444;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.6rem;
+    color: #254159;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 2.4rem;
+    color: #254159;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 2.4rem;
+    color: #254159;
+    margin-bottom: 10px;
+}
+
+section {
+    display: block;
+    float: left;
+    font-size: 1.5rem;
+    padding: 20px;
+    width: 100%;
+}
+
+section nav {
+    display: block;
+    float: left;
+    padding: 20px;
+    width: 30%;
+}
+
+section article {
+    display: block;
+    float: left;
+    width: 70%;
+   
+}
+
+footer {
+     padding: 20px;
+     background-color: #254159;
+     display: block;
+     float: left;
+     padding: 20px;
+     width: 100%;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1,4rem;
+}
+
+footer small {
+     font-size: 80%;
+     display: block;
+}
+
+ol {
+    margin: left;
+}
+
+
+ol li {
+    font-size: 1.4rem;
+    color: #a1a1a1;
+}
+
+section nav {
+    display: block;
+    float: left;
+    width: 30%;
+}
+
+nav li {
+    background-color: #adadad;
+    margin: 1px 20px 1px 0;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #254159;
+}
+
+nav a:hover {
+    color: #7a7a7a;
+}
