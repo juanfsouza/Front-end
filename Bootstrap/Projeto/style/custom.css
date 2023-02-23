@@ -1,0 +1,100 @@
+.card {
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+
+.btn {
+    margin: 20px;
+}
+
+body header {
+    padding-top: 2rem;
+    background-color: rgb(47, 0, 158);
+    border-bottom: 10px solid rgb(0, 0, 0);
+
+}
+
+h1 {
+    position: relative;
+    color: dodgerblue;
+    font-size: 3em;
+    letter-spacing: 3px;
+    border-bottom: 16px solid #333;
+    line-height: 1.4;
+    font-family: consolas;
+    text-transform: uppercase !important;
+    float: left;
+}
+
+h1::before {
+    content: attr(data-text) !important;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    color: dodgerblue;
+    border-bottom: 16px solid dodgerblue;
+    animation: lod 2s linear infinite;
+    overflow: hidden !important;
+}
+
+@keyframes lod {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+body header li {
+    color: rgb(255, 0, 0);
+    
+}
+
+section {
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+
+input {
+    padding-bottom: 4rem;
+}
+
+section .carousel-item {
+    border-bottom: 15px solid rgb(0, 0, 0);
+    border-top: 15px solid rgb(0, 0, 0);
+    
+}
+
+.nav-link {
+    color: aliceblue;
+    padding-block-start: 50%;
+    
+}
+
+footer {
+    background-color: #2b2b2b;
+    border-bottom: 10px solid rgb(0, 0, 0);
+    border-top: 10px solid rgb(0, 0, 0);
+}
+
+footer h2 {
+    color: aliceblue;
+    margin: 20px auto 20px 45%;
+}
+
+.js-search-input {
+    margin: 20px auto;
+    width: 45%;
+    color: black;
+
+}
+
+.card-x {
+    margin: 20px auto;
+    width: 50%;
+
+}
