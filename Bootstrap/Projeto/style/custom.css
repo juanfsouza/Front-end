@@ -69,9 +69,36 @@ section .carousel-item {
     
 }
 
-.nav-link {
+.nav-item .nav-link {
     color: aliceblue;
     padding-block-start: 50%;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1rem;
+    position: relative;
+    margin-right: 1rem;
+    padding-left: 10px !important;
+    padding-right: 0 !important;
+}
+
+.nav-item .nav-link:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    transition: 1.0s all;
+}
+
+.nav-item .nav-link:hover:before {
+    width: 100%;
+
+}
+  
+.nav-item .nav-link.active:before {
+    width: 100%;
     
 }
 
@@ -96,5 +123,17 @@ footer h2 {
 .card-x {
     margin: 20px auto;
     width: 50%;
+
+}
+
+.card img {
+    width: 100%;
+    transition: 0.3s all;
+    object-fit: contain;
+
+}
+
+.card:hover img {
+    transform: scale(0.8);
 
 }
